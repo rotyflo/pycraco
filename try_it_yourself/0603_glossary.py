@@ -7,4 +7,4 @@ glossary = {
 }
 
 for term, definition in glossary.items():
-    print("A " + term + " is " + definition + ".")
+    print("\nA " + term + " is " + definition + ".\n")
