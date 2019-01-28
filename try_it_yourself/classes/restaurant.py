@@ -16,4 +16,3 @@ print(restaurant.restaurant_name)
 print(restaurant.cuisine_type)
 print(restaurant.describe_restaurant())
 print(restaurant.open_restaurant())
-		

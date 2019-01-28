@@ -24,15 +24,15 @@ class Restaurant():
 		self.number_served += number
 
 
-restaurant = Restaurant('taco bell', 'mexican-inspired food')
-
-print(restaurant.number_served)
-
-restaurant.number_served = 42
-print(restaurant.number_served)
-
-restaurant.set_number_served(100)
-print(restaurant.number_served)
-
-restaurant.increment_number_served(23)
-print(restaurant.number_served)
+# restaurant = Restaurant('taco bell', 'mexican-inspired food')
+#
+# print(restaurant.number_served)
+#
+# restaurant.number_served = 42
+# print(restaurant.number_served)
+#
+# restaurant.set_number_served(100)
+# print(restaurant.number_served)
+#
+# restaurant.increment_number_served(23)
+# print(restaurant.number_served)
