@@ -29,16 +29,16 @@ class User():
         """Reset login attempts to 0."""
         self.login_attempts = 0
 
-users = []
-
-users.append(User('robert', 'robertson', 'robtron9000', 'itsmapasswerd'))
-
-users[0].increment_login_attempts()
-users[0].increment_login_attempts()
-users[0].increment_login_attempts()
-
-print(users[0].login_attempts)
-
-users[0].reset_login_attempts()
-
-print(users[0].login_attempts)
+# users = []
+#
+# users.append(User('robert', 'robertson', 'robtron9000', 'itsmapasswerd'))
+#
+# users[0].increment_login_attempts()
+# users[0].increment_login_attempts()
+# users[0].increment_login_attempts()
+#
+# print(users[0].login_attempts)
+#
+# users[0].reset_login_attempts()
+#
+# print(users[0].login_attempts)
