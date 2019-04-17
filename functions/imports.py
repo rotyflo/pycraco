@@ -1,7 +1,7 @@
 import words
 
 my_string = "Okay, let's see if we can count the amount of words in this string"
-amount_of_words = words.word_count(my_string)
+amount_of_words = words.count_words(my_string)
 
 print(amount_of_words)
 
