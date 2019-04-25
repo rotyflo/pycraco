@@ -12,10 +12,10 @@ class Restaurant():
     def open_restaurant(self):
         print(self.restaurant_name.title() + " is open for business!")
 
-
-restaurant = Restaurant('starbucks', 'coffee')
-
-print(restaurant.restaurant_name)
-print(restaurant.cuisine_type)
-restaurant.describe_restaurant()
-restaurant.open_restaurant()
+# 
+# restaurant = Restaurant('starbucks', 'coffee')
+#
+# print(restaurant.restaurant_name)
+# print(restaurant.cuisine_type)
+# restaurant.describe_restaurant()
+# restaurant.open_restaurant()
