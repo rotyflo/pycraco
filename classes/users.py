@@ -18,13 +18,13 @@ class User():
         print(f"Hey {self.username}! Welcome back!")
 
 
-users = []
-
-users.append(User('rob', 'smith', 'robdog', 'thisguy@gmail.com'))
-users.append(User('jon', 'grape', 'grapinator', 'thatguy@pmail.com'))
-users.append(User('tom', 'miles', 'milesnmiles', 'theseguys@bmail.com'))
-
-for user in users:
-    print()
-    user.describe_user()
-    user.greet_user()
+# users = []
+#
+# users.append(User('rob', 'smith', 'robdog', 'thisguy@gmail.com'))
+# users.append(User('jon', 'grape', 'grapinator', 'thatguy@pmail.com'))
+# users.append(User('tom', 'miles', 'milesnmiles', 'theseguys@bmail.com'))
+#
+# for user in users:
+#     print()
+#     user.describe_user()
+#     user.greet_user()
